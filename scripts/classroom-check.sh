@@ -1,4 +1,3 @@
-#!/bin/bash
 set -euo pipefail
 
 REQUISITO=${1:-}
@@ -27,7 +26,6 @@ if [ "$REQUISITO" = "arquitectura" ]; then
         exit 1
     fi
 
-    # Imprimir estrictamente "CORRECTO" si todo está bien
     echo "CORRECTO"
     exit 0
 else
